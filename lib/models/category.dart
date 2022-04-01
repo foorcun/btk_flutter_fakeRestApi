@@ -7,6 +7,8 @@ import 'package:json_annotation/json_annotation.dart';
 // https://www.youtube.com/watch?v=v5xGLrhzDGE
 //https://www.btkakademi.gov.tr/portal/course/player/deliver/google-flutter-ile-mobil-uygulama-kursu-10150
 part 'category.g.dart';
+// generate g.dart
+//flutter packages pub run build_runner build
 
 @JsonSerializable()
 class Category {
